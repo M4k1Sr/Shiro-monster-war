@@ -1,0 +1,63 @@
+# ==========================================
+# C / C++ Compiled Binaries & Executables
+# ==========================================
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+
+# ==========================================
+# Build & Intermediate Files
+# ==========================================
+[Bb]uild/
+[Bb]uilds/
+[Bb]in/
+[Ob]j/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeUsers.txt
+Makefile.old
+
+# ==========================================
+# IDE & Editor Project Files
+# ==========================================
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.nativecodeanalysis.xml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkmapping
+
+# ==========================================
+# System & Temporary Files
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
